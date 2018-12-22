@@ -71,7 +71,7 @@ public class HopDongActivity extends Activity {
         lnlSearch.setVisibility(View.GONE);
 
         if (quyenTruyCap != 1)
-            btnAdd.setBackgroundResource(R.drawable.item_blurry);
+            btnAdd.setVisibility(View.GONE);
 
         lvHopDong = (ListView) findViewById(R.id.lvHopDong);
         addDSHopDong();
