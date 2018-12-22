@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.phungvandat.employeemanager">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".dsPhongBanActivity" />
+        <activity android:name=".ThemNhanVienActivity" />
+        <activity android:name=".SuaChuaThongTinActivity" />
+        <activity android:name=".TimKiemActivity" />
+        <activity android:name=".HienThiThongTinActivity"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity android:name=".XoaNhanVienActivity"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog" />
+        <activity android:name=".TinhCongActivity" />
+
+        <activity android:name=".NhapCongActivity" />
+        <activity android:name=".HopDongActivity" />
+        <activity android:name=".ChinhSuaHopDongActivity"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog" />
+        <activity android:name=".Tab1Menu" />
+        <activity android:name=".Tab2Menu" />
+        <activity android:name=".BieuDoNhanVien" />
+        <activity android:name=".SMSActivity" />
+        <activity android:name=".ThemHopDongActivity"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog"
+            />
+        <activity android:name=".DangKiTaiKhoanActivity" />
+        <activity android:name=".MaXacNhanActivity" />
+        <activity android:name=".QuenMatKhauActivity" />
+        <activity android:name=".DoiMatKhauActivity"></activity>
+        <activity android:name=".DanhSachNhanVienDaXoaActivity"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog"/>
+        <activity android:name=".LichSuPhongBanActivity"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnuMaNhanVien"
+        android:title="Mã nhân viên"
+        android:icon="@drawable/ma_nhan_vien_icon"></item>
+    <item
+        android:id="@+id/mnuHoTen"
+        android:title="Họ tên"
+        android:icon="@drawable/ho_ten_icon"></item>
+    <item
+        android:id="@+id/mnuCMND"
+        android:title="Số CMND"
+        android:icon="@drawable/cmnd_icon"></item>
+    <item
+        android:id="@+id/mnuPhone"
+        android:title="Số phone"
+        android:icon="@drawable/phone_icon"></item>
+    <item
+        android:id="@+id/mnuEmail"
+        android:title="Email"
+        android:icon="@drawable/email_icon"></item>
+    <item
+        android:id="@+id/mnuNguyenQuan"
+        android:title="Nguyên quán"
+        android:icon="@drawable/nguyen_quan_icon"></item>
+</menu>

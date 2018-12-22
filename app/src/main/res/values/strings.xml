@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">employeemanager</string>
+
+    <string-array name="arrDanToc">
+        <item>Kinh</item>
+        <item>Tày</item>
+        <item>Thái</item>
+        <item>Mường</item>
+        <item>Khơ Me</item>
+        <item>HMông</item>
+        <item>Nùng</item>
+        <item>Hoa</item>
+        <item>Dao</item>
+        <item>Gia Rai</item>
+        <item>Ê Đê</item>
+        <item>Ba Na</item>
+        <item>Xơ Đăng</item>
+        <item>Sán Chay</item>
+        <item>Cơ Ho</item>
+        <item>Chăm</item>
+        <item>Sán Dìu</item>
+        <item>Hrê</item>
+        <item>Ra Glai</item>
+        <item>MNông</item>
+        <item>XTiêng</item>
+        <item>Bru-Vân Kiều</item>
+        <item>Thổ</item>
+        <item>Khơ Mú</item>
+        <item>Cơ Tu</item>
+        <item>Giáy</item>
+        <item>Giẻ Triêng</item>
+        <item>Tà Ôi</item>
+        <item>Mạ</item>
+        <item>Co</item>
+        <item>Chơ Ro</item>
+        <item>Xinh Mun</item>
+        <item>Hà Nhì</item>
+        <item>Chu Ru</item>
+        <item>Lào</item>
+        <item>Kháng</item>
+        <item>La Chí</item>
+        <item>Phú Lá</item>
+        <item>La Hủ</item>
+        <item>La Ha</item>
+        <item>Pà Thẻn</item>
+        <item>Chứt</item>
+        <item>Lự</item>
+        <item>Lô Lô</item>
+        <item>Mảng</item>
+        <item>Cờ Lao</item>
+        <item>Bố Y</item>
+        <item>Cống</item>
+        <item>Ngái</item>
+        <item>Si La</item>
+        <item>Pu Péo</item>
+        <item>Rơ Năm</item>
+        <item>Brâu</item>
+        <item>Ơ Đu</item>
+    </string-array>
+</resources>

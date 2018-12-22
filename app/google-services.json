@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "188069647393",
+    "firebase_url": "https://employee-manager-67e0d.firebaseio.com",
+    "project_id": "employee-manager-67e0d",
+    "storage_bucket": "employee-manager-67e0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188069647393:android:5237ddd40f5b8c4a",
+        "android_client_info": {
+          "package_name": "com.example.phungvandat.employeemanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188069647393-jb5mliu78isq18m7vddth03ej6jdbfs7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.phungvandat.employeemanager",
+            "certificate_hash": "4b2004458f539df490c1f681eb3fc4911502f5f0"
+          }
+        },
+        {
+          "client_id": "188069647393-oge9kggdna02immb84ua4du2ro4k8j78.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.phungvandat.employeemanager",
+            "certificate_hash": "801baa938e6791f9b5b594edb2e13663c4a3869c"
+          }
+        },
+        {
+          "client_id": "188069647393-1cie80ivd13k3dvbamekokp9ar2uljcj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEJuaMOXE9nq4FEtAezVzPXnlzHT0Mf_o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188069647393-1cie80ivd13k3dvbamekokp9ar2uljcj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

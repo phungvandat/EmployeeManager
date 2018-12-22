@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.phungvandat.employeemanager.TimKiemActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:stretchColumns="0,1,2,3"
+        android:background="#ff5e00"
+        android:id="@+id/tbTitle">
+        <TableRow>
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_back"
+                android:id="@+id/btnBack"
+                android:layout_gravity="center_vertical|left"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TÌM THEO MÃ NHÂN VIÊN"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/txtTitle"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_option_menu"
+                android:id="@+id/btnOptionMenu"
+                android:layout_gravity="center_vertical|right"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                />
+        </TableRow>
+    </TableLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ab1313">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:background="#cacaca">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="   "
+                android:id="@+id/textView10"
+                android:layout_gravity="center_vertical" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtThuocTinh"
+                android:textStyle="bold|italic"
+                android:textColor="#0418c9"
+                android:background="@drawable/style_editext"
+                android:hint="Nhập thông tin tìm kiếm tại đây"
+                android:layout_gravity="center_vertical" />
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="48dp"
+                android:id="@+id/btnTimKiem"
+                android:src="@drawable/imgtimkiem"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:id="@+id/lvTimKiem" />
+
+</LinearLayout>

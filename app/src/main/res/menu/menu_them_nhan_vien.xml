@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnuNhanVienDaBiXoa"
+        android:title="Backup nhân viên"
+        android:icon="@drawable/deleted_icon"></item>
+</menu>
