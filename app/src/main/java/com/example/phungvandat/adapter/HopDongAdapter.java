@@ -65,7 +65,7 @@ public class HopDongAdapter extends ArrayAdapter<HopDong> {
         txtNgayVaoLam.setText(hopDong.getNgayVaoLam());
         txtNgayThoiViec.setText(hopDong.getNgayThoiViec());
         if (quyenTruyCap!=1)
-            btnChinhSua.setBackgroundResource(R.drawable.item_blurry);
+            btnChinhSua.setVisibility(View.GONE);
 
         btnChinhSua.setOnClickListener(new View.OnClickListener() {
             @Override

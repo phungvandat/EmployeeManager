@@ -297,8 +297,8 @@ public class ChinhSuaHopDongActivity extends Activity {
 
     private void addDSNam() {
         dsNam = new ArrayList<>();
-        dsNam.add("2016");
         dsNam.add("2017");
+        dsNam.add("2018");
     }
 
     private void addDSThang() {
